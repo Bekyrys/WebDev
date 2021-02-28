@@ -1,0 +1,43 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+
+	<h3>
+		<a [title]="product.name + ' details'">
+			{{ product.name }}
+		</a>
+	</h3>
+
+
+	<p *ngIf="product.description">
+		Description: {{ product.description }}
+	</p>
+
+	<p id="rating" *ngIf="product rating">
+		Rating: {{product.rating}}
+	</p>
+
+	<div class="images">
+		<a href="{{product.link}}">
+			<img id="img" src="{{product.image}}" width="200" alt="images" />
+      </a>
+	</div>
+
+	<div id="links">
+		<a class="linkes"
+			href="https://api.whatsapp.com/send?phone=77079980782&text=Dear customer, check this web  store!! https://https://www.amazon.com//"
+			target="_blank">
+			<button>Whatsapp</button>
+		</a>
+		<br />
+		<a class="linkes"
+			href="https://telegram.me/share/url?url=Customer!&text= Dear customer,  check this web store!! https://https://www.amazon.com//"
+			target="_blank">
+			<button>Telegram</button>
+		</a>
+	</div>
+	<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
