@@ -14,14 +14,10 @@ h1{
     font-family: sans-serif;
 }
 h2{
-    direction: ltr;
-    margin: 0;
     display: inline-block;
-    letter-spacing: normal;
-    text-rendering: optimizelegibility;
     color: #1c1e21;
     padding: 0 0 20px;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
@@ -43,7 +39,7 @@ h2{
 .form{
     float: right;
     background-color: white;
-        margin-top: -12px;
+    margin-top: -12px;
     padding: 16px;
 }
 .form input{
